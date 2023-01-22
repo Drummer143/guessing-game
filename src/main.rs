@@ -4,6 +4,7 @@ use std::cmp::Ordering;
 fn main() {
     println!("Guess the number!");
     println!("Secret number is in range from 1 to 100.");
+    println!("Type CTRL+C if you want to exit");
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
 
